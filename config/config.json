@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-extension-js-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spfxExtensionJs/SpfxExtensionJsApplicationCustomizer.js",
+          "manifest": "./src/extensions/spfxExtensionJs/SpfxExtensionJsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxExtensionJsApplicationCustomizerStrings": "lib/extensions/spfxExtensionJs/loc/{locale}.js"
+  }
+}
